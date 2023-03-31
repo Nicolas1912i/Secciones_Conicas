@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Cono_Eliptico" size="1.000000 1.035032" />
+    <ImageTarget name="Hiperboloide_De_Dos_Hojas" size="1.000000 1.035032" />
+    <ImageTarget name="Hiperboloide_De_Una_Hoja" size="1.000000 1.035032" />
+    <ImageTarget name="Paraboloide_Hiperbolico" size="1.000000 1.035032" />
+    <ImageTarget name="Paraboloide" size="1.000000 1.035032" />
+    <ImageTarget name="Elipsoide" size="1.000000 1.035032" />
+    <ImageTarget name="Esferoide" size="1.000000 1.035032" />
+  </Tracking>
+</QCARConfig>

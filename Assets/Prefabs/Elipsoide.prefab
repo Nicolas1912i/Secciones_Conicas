@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1550197386554241028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2582868913639064087}
+  - component: {fileID: 6810347709473765409}
+  - component: {fileID: 990719642192299224}
+  - component: {fileID: 7395620155985930510}
+  m_Layer: 0
+  m_Name: Elipsoide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2582868913639064087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550197386554241028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalScale: {x: 120, y: 60, z: 60}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6810347709473765409
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550197386554241028}
+  m_Mesh: {fileID: 4711208715938537054, guid: 1adaeeafe433c7f4eab4039aa20e3173, type: 3}
+--- !u!23 &990719642192299224
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550197386554241028}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 670224309865224971, guid: a2c41edc26859e84eb61e08ffbdfc348, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &7395620155985930510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550197386554241028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e22d504df4fa844a3f8ddfc0b3a229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solidoParaModificar: {fileID: 1550197386554241028}
+  botonesSolido: {fileID: 0}
+  slidersSolido: {fileID: 0}
+  objetoSliderUniforme: {fileID: 0}
+  objetoSliderEscalaX: {fileID: 0}
+  objetoSliderEscalaY: {fileID: 0}
+  objetoSliderEscalaZ: {fileID: 0}
+  objetoSliderRotacionX: {fileID: 0}
+  objetoSliderRotacionY: {fileID: 0}
+  objetoSliderRotacionZ: {fileID: 0}
+  sliderEscalaUniforme: {fileID: 0}
+  sliderEscalaX: {fileID: 0}
+  sliderEscalaY: {fileID: 0}
+  sliderEscalaZ: {fileID: 0}
+  sliderRotacionX: {fileID: 0}
+  sliderRotacionY: {fileID: 0}
+  sliderRotacionZ: {fileID: 0}
+  botonHabilitarEscalas: {fileID: 0}
+  botonHabilitarRotaciones: {fileID: 0}
+  botonInhabilitarEscalas: {fileID: 0}
+  botonInhabilitarRotaciones: {fileID: 0}
+  botonResetearEscala: {fileID: 0}
+  botonResetearRotacion: {fileID: 0}
+  escalaX: 0
+  escalaY: 0
+  escalaZ: 0
+  rotacionX: 0
+  rotacionY: 0
+  rotacionZ: 0
+  escalaDisponible: 0
+  rotacionDisponible: 0
+  resetearEscala: 0
+  resetearRotacion: 0
+  escalaXInicial: 120
+  escalaYInicial: 60
+  escalaZInicial: 60
+  rotacionXInicial: 0
+  rotacionYInicial: 0
+  rotacionZInicial: 0
+  activo: 0
